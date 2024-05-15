@@ -63,7 +63,7 @@ public class controllerBarang {
      public void hapusData(){
          brg.setKode(frame.getTxtKode().getText());
          daoBrg.hapus(brg);
-         JOptionPane.showMessageDialog(frame, "Berhasil Mengahpaus data");
+         JOptionPane.showMessageDialog(frame, "Berhasil Menghapus data");
      }
     
     public void bersih(){
